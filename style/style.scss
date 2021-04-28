@@ -50,7 +50,7 @@ body{
         text-align: center;
         text-transform: uppercase;
         color: #fff;
-        margin-top: 80px;
+        margin-top: 150px;
       }
       .bottom-txt{
         position: absolute;
@@ -67,17 +67,21 @@ body{
       .start-btn{
         position: absolute;
         text-decoration: none;
-        color: #fff;
         text-align: center;
         display: block;
         width: 170px;
         height: 47px;
-        border: 1px solid #fff;
         line-height: 45px;
         left: 0;
         right: 0;
         bottom: 100px;
         margin: 0 auto;
+        border: none;
+        background: #ffed00;
+        color: #000;
+        cursor: pointer;
+        font-weight: bold;
+        text-transform: uppercase;
       }
     }
   }
@@ -214,7 +218,7 @@ body{
         padding-top: 10px;
         padding-bottom: 10px;
         .dark-txt{
-          color: #666666;
+          color: #2b2b2b;
           font-weight: 600;
           font-size: 13px;
           line-height: 16px;
@@ -226,7 +230,7 @@ body{
           font-style: italic;
           line-height: 13px;
           margin-top: 10px;
-          color: #666666;
+          color: #2b2b2b;
         }
       }
       .question-wrapper{
@@ -270,7 +274,7 @@ body{
               .answer{
                 font-size: 12px;
                 padding-left: 5px;
-                color: #666666;
+                color: #2b2b2b;
                 display: inline-block;
               }
               .answer-font{
@@ -285,8 +289,8 @@ body{
                 height: 16px;
                 max-width: 16px;
                 min-width: 16px;
-                background-color: transparent;
-                border: 1px solid #666666;
+                background-color: #000;
+                border: 1px solid #000;
                 border-radius: 50%;
                 box-sizing: unset;
               }
@@ -304,7 +308,7 @@ body{
                 max-width: 10px;
                 min-width: 10px;
                 position: absolute;
-                background: #9F0002;
+                background: #ffed00;
                 left: calc( 50% - 5px);
                 top: calc( 50% - 5px);
                 border-radius: 50%;
@@ -395,7 +399,7 @@ body{
                 .answer{
                   font-size: 11px;
                   padding-left: 5px;
-                  color: #666666;
+                  color: #2b2b2b;
                   display: inline-block;
                 }
                 .checkmark{
@@ -407,7 +411,7 @@ body{
                   max-width: 11px;
                   min-width: 11px;
                   background-color: transparent;
-                  border: 1px solid #666666;
+                  border: 1px solid #2b2b2b;
                   border-radius: 50%;
                   box-sizing: border-box;
                 }
@@ -418,8 +422,8 @@ body{
                   max-width: 11px;
                   min-width: 11px;
                   position: absolute;
-                  background: #9F0002;
-                  border: 1px solid #9F0002;
+                  background: #ffed00;
+                  border: 1px solid #ffed00;
                   left: -2px;
                   top: -2px;
                   border-radius: 50%;
@@ -574,13 +578,15 @@ body{
         height: 47px;
         margin: 0 auto;
         outline: none;
-        border: 1px solid #333333;
+        border: none;
         color: #333333;
         font-size: 16px;
         line-height: 28px;
         text-align: center;
-        background: transparent;
+        background: #ffed00;
         cursor: pointer;
+        font-weight: bold;
+        text-transform: uppercase;
       }
     }
     #contacts-form{
@@ -672,12 +678,15 @@ body{
           height: 47px;
           margin: 0 auto;
           outline: none;
-          border: 1px solid #333333;
           color: #333333;
           font-size: 16px;
           line-height: 28px;
           text-align: center;
-          background: transparent;
+          border: none;
+          background: #ffed00;
+          cursor: pointer;
+          font-weight: bold;
+          text-transform: uppercase;
         }
       }
     }
