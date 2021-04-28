@@ -761,7 +761,6 @@ body .survey-container .submit-wrapper {
 body .survey-container .submit-wrapper .save-btn {
   display: block;
   width: 170px;
-  height: 47px;
   margin: 0 auto;
   outline: none;
   border: none;
@@ -884,7 +883,6 @@ body .survey-container #contacts-form .contacts-submit-wrapper {
 body .survey-container #contacts-form .contacts-submit-wrapper .save-btn {
   display: block;
   width: 170px;
-  height: 47px;
   margin: 0 auto;
   outline: none;
   color: #333333;
