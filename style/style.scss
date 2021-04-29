@@ -17,6 +17,11 @@
 .p-10{
   padding: 10px 0px;
 }
+.text-blur {
+  background: rgba(223, 217, 205, 0.31);
+  backdrop-filter: blur(7px);
+  padding: 20px 10px;
+}
 body{
   font-family: 'Raleway', sans-serif;
   .main-page-container{
@@ -29,7 +34,7 @@ body{
     height: 100%;
     max-width: 450px;
     margin: 0 auto;
-    background: url('../img/main-bg.jpg');
+    background: url('../img/bg-start.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -62,7 +67,7 @@ body{
         left: 0;
         right: 0;
         top: calc(70% - 48px);
-        padding: 0px 30px;
+        padding: 10px 30px;
       }
       .start-btn{
         position: absolute;
@@ -99,7 +104,6 @@ body{
       .logo-box{
         padding-top: 30px;
         padding-bottom: 30px;
-        border-bottom: 1px solid #C4C4C4;
         width: 162px;
         img {
           max-width: 100%;
@@ -112,7 +116,7 @@ body{
           font-size: 14px;
           text-transform: uppercase;
           color: #000000;
-          line-height: 17px;
+          line-height: 22px;
         }
         .range10{
           display: flex;
@@ -600,7 +604,6 @@ body{
     #contacts-form{
       position: relative;
       .contacts-gray-block{
-        margin-top: 50px;
         .wrapper{
           padding: 20px 25px;
           .line{
@@ -731,7 +734,7 @@ body{
       }
     }
     .thx-block{
-      margin-top: 50%;
+      margin-top: 70%;
       background: rgba(223, 217, 205, 0.31);
       backdrop-filter: blur(7px);
       padding: 40px 20px;

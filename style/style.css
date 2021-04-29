@@ -23,6 +23,13 @@
   padding: 10px 0px;
 }
 
+.text-blur {
+  background: rgba(223, 217, 205, 0.31);
+  -webkit-backdrop-filter: blur(7px);
+          backdrop-filter: blur(7px);
+  padding: 20px 10px;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
 }
@@ -37,7 +44,7 @@ body .main-page-container {
   height: 100%;
   max-width: 450px;
   margin: 0 auto;
-  background: url("../img/main-bg.jpg");
+  background: url("../img/bg-start.jpg");
   background-position: center;
   -webkit-background-size: cover;
           background-size: cover;
@@ -78,7 +85,7 @@ body .main-page-container .survey-wrapper .bottom-txt {
   left: 0;
   right: 0;
   top: calc(70% - 48px);
-  padding: 0px 30px;
+  padding: 10px 30px;
 }
 
 body .main-page-container .survey-wrapper .start-btn {
@@ -115,7 +122,6 @@ body .survey-container {
 body .survey-container .wrapper .logo-box {
   padding-top: 30px;
   padding-bottom: 30px;
-  border-bottom: 1px solid #C4C4C4;
   width: 162px;
 }
 
@@ -132,7 +138,7 @@ body .survey-container .wrapper .main-question-box .q-text {
   font-size: 14px;
   text-transform: uppercase;
   color: #000000;
-  line-height: 17px;
+  line-height: 22px;
 }
 
 body .survey-container .wrapper .main-question-box .range10 {
@@ -784,10 +790,6 @@ body .survey-container #contacts-form {
   position: relative;
 }
 
-body .survey-container #contacts-form .contacts-gray-block {
-  margin-top: 50px;
-}
-
 body .survey-container #contacts-form .contacts-gray-block .wrapper {
   padding: 20px 25px;
 }
@@ -935,7 +937,7 @@ body .end-page-container .logo-box img {
 }
 
 body .end-page-container .thx-block {
-  margin-top: 50%;
+  margin-top: 70%;
   background: rgba(223, 217, 205, 0.31);
   -webkit-backdrop-filter: blur(7px);
           backdrop-filter: blur(7px);
