@@ -72,7 +72,7 @@ body .main-page-container .survey-wrapper .top-title {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  margin-top: 150px;
+  margin-top: 70px;
 }
 
 body .main-page-container .survey-wrapper .bottom-txt {
@@ -111,6 +111,7 @@ body .main-page-container .survey-wrapper .start-btn {
   font-weight: bold;
   text-transform: uppercase;
   font-weight: 600;
+  width: 180px;
 }
 
 body .survey-container {
@@ -995,10 +996,10 @@ body .survey-container .hidden-questions .question-wrapper .flex-container .answ
 
 @media (max-height: 680px) {
   body .main-page-container .survey-wrapper .top-title {
-    margin-top: 43px;
+    margin-top: 40px;
   }
   body .main-page-container .survey-wrapper .start-btn {
-    bottom: 35px;
+    bottom: 55px;
   }
   body .main-page-container .survey-wrapper .bottom-txt {
     top: calc(73% - 48px);
