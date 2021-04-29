@@ -12,7 +12,7 @@
 }
 
 .gray-block {
-  background: #F1EEE9;
+  background: #ededed;
 }
 
 .yellow-block {
@@ -301,7 +301,7 @@ body .survey-container .hidden-questions .thx-text-wrapper .light-txt {
   font-weight: 400;
   font-size: 13px;
   font-style: italic;
-  line-height: 16px;
+  line-height: 22px;
   margin-top: 10px;
   color: #2b2b2b;
 }
