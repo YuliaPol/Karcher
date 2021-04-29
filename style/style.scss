@@ -12,7 +12,7 @@
   background: #F1EEE9;
 }
 .yellow-block {
-  background: #fe0;
+  background: #ffed00;
 }
 .p-10{
   padding: 10px 0px;
@@ -74,7 +74,8 @@ body{
         bottom: 100px;
         margin: 0 auto;
         border: none;
-        background: #ffed00;
+        background-color: #ffed00;
+        background-image: -webkit-linear-gradient(bottom, #ffed00, #fff466);
         border: 1px solid #e3e3e3;
         width: calc(100% - 60px);
         margin: auto;
@@ -589,7 +590,8 @@ body{
         font-size: 13px;
         line-height: 18px;
         text-align: center;
-        background: #ffed00;
+        background-color: #ffed00;
+        background-image: -webkit-linear-gradient(bottom, #ffed00, #fff466);
         cursor: pointer;
         text-transform: uppercase;
         font-weight: 600;
@@ -684,7 +686,8 @@ body{
           margin: 0 auto;
           outline: none;
           color: #333333;
-          background: #ffed00;
+          background-color: #ffed00;
+          background-image: -webkit-linear-gradient(bottom, #ffed00, #fff466);  
           border: 1px solid #e3e3e3;
           padding: 13px 20px 11px;
           font-size: 13px;
