@@ -993,46 +993,65 @@ body .survey-container .hidden-questions .question-wrapper .flex-container .answ
 
 .smile-list .answer {
   width: 20%;
-  padding: 5px;
 }
 
 .smile-list .answer input[type=radio] {
   display: none;
 }
 
-.smile-list .answer input[type=radio]:checked ~ label.color1 {
-  background-color: #9F0002;
+.smile-list .answer input[type=radio]:checked ~ label.color1 .smile-sad {
+  max-width: 100%;
+  width: 75px;
+  height: 75px;
+  background-image: url(./../img/sad-2-a.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-.smile-list .answer input[type=radio]:checked ~ label.color2 {
-  background-color: #AB290C;
+.smile-list .answer input[type=radio]:checked ~ label.color2 .smile-bad {
+  max-width: 100%;
+  width: 75px;
+  height: 75px;
+  background-image: url(./../img/bad-2-a.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-.smile-list .answer input[type=radio]:checked ~ label.color3 {
-  background-color: #D04205;
+.smile-list .answer input[type=radio]:checked ~ label.color3 .smile-normal {
+  max-width: 100%;
+  width: 75px;
+  height: 75px;
+  background-image: url(./../img/normal-2-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-.smile-list .answer input[type=radio]:checked ~ label.color4 {
-  background-color: #F39A13;
+.smile-list .answer input[type=radio]:checked ~ label.color4 .smile-happy {
+  max-width: 100%;
+  width: 75px;
+  height: 75px;
+  background-image: url(./../img/happy-2-a.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .smile-list .answer input[type=radio]:checked ~ label.color5 .smile-veryhappy {
   max-width: 100%;
-  width: 45px;
-  height: 45px;
+  width: 75px;
+  height: 75px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(./../img/very-happy-2-a.gif);
+  background-image: url(./../img/veryhappy-2-a.png);
 }
 
 .smile-list .answer label {
-  padding: 5px;
   display: block;
-  background-color: #d1d2d4;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1046,58 +1065,64 @@ body .survey-container .hidden-questions .question-wrapper .flex-container .answ
   transition: background-image 0.3s ease-in;
 }
 
-.smile-list .answer label.color5 {
-  background-color: transparent;
-}
-
 .smile-list .answer .smile-sad {
   max-width: 100%;
-  width: 45px;
-  height: 45px;
-  background-image: url(./../img/sad.png);
+  width: 75px;
+  height: 75px;
+  background-image: url(./../img/sad-2.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  -webkit-transition: background-image 0.3s ease-in;
+  transition: background-image 0.3s ease-in;
 }
 
 .smile-list .answer .smile-bad {
   max-width: 100%;
-  width: 45px;
-  height: 45px;
-  background-image: url(./../img/bad.png);
+  width: 75px;
+  height: 75px;
+  background-image: url(./../img/bad-2.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  -webkit-transition: background-image 0.3s ease-in;
+  transition: background-image 0.3s ease-in;
 }
 
 .smile-list .answer .smile-normal {
   max-width: 100%;
-  width: 45px;
-  height: 45px;
-  background-image: url(./../img/normal.png);
+  width: 75px;
+  height: 75px;
+  background-image: url(./../img/normal-2.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  -webkit-transition: background-image 0.3s ease-in;
+  transition: background-image 0.3s ease-in;
 }
 
 .smile-list .answer .smile-happy {
   max-width: 100%;
-  width: 45px;
-  height: 45px;
-  background-image: url(./../img/happy.png);
+  width: 75px;
+  height: 75px;
+  background-image: url(./../img/happy-2.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  -webkit-transition: background-image 0.3s ease-in;
+  transition: background-image 0.3s ease-in;
 }
 
 .smile-list .answer .smile-veryhappy {
   max-width: 100%;
-  width: 45px;
-  height: 45px;
-  background-image: url(./../img/very-happy-2.gif);
+  width: 75px;
+  height: 75px;
+  background-image: url(./../img/veryhappy-2.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  -webkit-transition: background-image 0.3s ease-in;
+  transition: background-image 0.3s ease-in;
 }
 
 @media (max-height: 772px) {
