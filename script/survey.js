@@ -2,7 +2,23 @@
 $('.nps-btn').on('change', function () {
     let val = $(this).val() * 1;
     $('.submit-wrapper').fadeIn();
-    if (val < 7){
+    $('.hidden-labels').hide();
+    if(val == 0) {
+        $('.point_0').fadeIn();
+    }
+    if(val == 1) {
+        $('.point_1').fadeIn();
+    }
+    if(val == 2) {
+        $('.point_2').fadeIn();
+    }
+    if(val == 3) {
+        $('.point_3').fadeIn();
+    }
+    if(val == 4) {
+        $('.point_4').fadeIn();
+    }
+    if (val < 2){
         $('.point_0-6').fadeIn();
         $('.point_9-10').hide();
         $('.point_7-8').hide();
@@ -27,7 +43,7 @@ $('.nps-btn').on('change', function () {
         if ($('.main-radio-option').is(":checked") === false) {
             $('.main-radio-option').parents().find($('.question-main-container .comment-main-container')).hide();
         }
-    } else if (val > 6 && val < 9){
+    } else if (val === 2){
         $('.point_0-6').hide();
         $('.point_9-10').hide();
         $('.sub-answer-wrapper').hide();
@@ -57,7 +73,7 @@ $('.nps-btn').on('change', function () {
             $(commentsBad[i]).parent().find('.label-txt').css({"top": "0px"});
             $(commentsBad[i]).parent().find('.comment-icon').css({"left": "auto", "right": "0px", "top":"-5px"});
         }
-    } else if (val > 8){
+    } else if (val > 2){
         $('.point_0-6').hide();
         $('.point_9-10').fadeIn();
         $('.point_7-8').hide();
@@ -105,19 +121,37 @@ $(document).ready(function (){
     }
     if ($('.nps-btn:checked').length > 0){
         $('.submit-wrapper').show();
-        if(valNps < 7){
+        if(valNps == 0) {
             $('.point_0-6').fadeIn();
             $('.point_9-10').hide();
             $('.point_7-8').hide();
-        } else if (valNps > 6 && valNps < 9){
+        }
+        if(valNps == 1) {
+            $('.point_0-6').fadeIn();
+            $('.point_9-10').hide();
+            $('.point_7-8').hide();
+        }
+        if(valNps == 2) {
             $('.point_0-6').hide();
             $('.point_9-10').hide();
             $('.point_7-8').fadeIn();
-        } else if (valNps > 8){
+        }
+        if(valNps == 3) {
+            $('.point_0-6').hide();
+            $('.point_9-10').hide();
+            $('.point_7-8').fadeIn();
+        }
+        if(valNps == 4) {
             $('.point_0-6').hide();
             $('.point_9-10').fadeIn();
             $('.point_7-8').hide();
-        } else if (isNaN(valNps)){
+        }
+        if(valNps == 5) {
+            $('.point_0-6').hide();
+            $('.point_9-10').fadeIn();
+            $('.point_7-8').hide();
+        }
+        else if (isNaN(valNps)){
             return false;
         }
     }
