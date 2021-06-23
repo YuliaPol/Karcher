@@ -1016,8 +1016,14 @@ body .survey-container .hidden-questions .question-wrapper .flex-container .answ
   background-color: #F39A13;
 }
 
-.smile-list .answer input[type=radio]:checked ~ label.color5 {
-  background-color: #008A00;
+.smile-list .answer input[type=radio]:checked ~ label.color5 .smile-veryhappy {
+  max-width: 100%;
+  width: 45px;
+  height: 45px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(./../img/very-happy-2-a.gif);
 }
 
 .smile-list .answer label {
@@ -1036,8 +1042,12 @@ body .survey-container .hidden-questions .question-wrapper .flex-container .answ
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-transition: background-color 0.3s ease-in;
-  transition: background-color 0.3s ease-in;
+  -webkit-transition: background-image 0.3s ease-in;
+  transition: background-image 0.3s ease-in;
+}
+
+.smile-list .answer label.color5 {
+  background-color: transparent;
 }
 
 .smile-list .answer .smile-sad {
@@ -1084,7 +1094,7 @@ body .survey-container .hidden-questions .question-wrapper .flex-container .answ
   max-width: 100%;
   width: 45px;
   height: 45px;
-  background-image: url(./../img/very-happy.png);
+  background-image: url(./../img/very-happy-2.gif);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
