@@ -982,6 +982,52 @@ body .survey-container .hidden-questions .question-wrapper .flex-container .answ
   line-height: 26px;
 }
 
+.rating-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  height: 150px;
+  position: relative;
+}
+
+.rating-list > input {
+  display: none;
+}
+
+.rating-list > label {
+  cursor: pointer;
+  height: 60px;
+  width: 20%;
+  margin: auto;
+  min-width: 20%;
+  margin-top: auto;
+  background-image: url("./../img/icon-star.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 76%;
+  -webkit-transition: background-image .3s;
+  transition: background-image .3s;
+}
+
+.rating-list > input:checked ~ label,
+.rating-list > input:checked ~ label ~ label {
+  background-image: url("./../img/icon-star-a.svg");
+}
+
+.rating-list > input:not(:checked) ~ label:hover,
+.rating-list > input:not(:checked) ~ label:hover ~ label {
+  background-image: url("./../img/icon-star-h.svg");
+}
+
 .smile-list {
   padding-top: 25px;
   display: -webkit-box;
