@@ -557,7 +557,7 @@ body .survey-container .hidden-questions .question-wrapper .flex-container .answ
 
 body .survey-container .hidden-questions .question-wrapper .flex-container .answers-wrapper .sub-answer-wrapper .sab-radio_container .checkmark {
   position: absolute;
-  top: 6px;
+  top: 3px;
   left: 4px;
   width: 11px;
   height: 11px;
