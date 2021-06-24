@@ -35,7 +35,7 @@
   padding: 20px 10px;
 }
 body{
-  font-family: 'Raleway', sans-serif;
+  font-family: HelveticaNeueCyrMedium;
   .main-page-container{
     position: fixed;
     top: 0;
@@ -126,11 +126,9 @@ body{
       .main-question-box{
         margin-top: 20px;
         .q-text{
-          font-weight: 600;
-          font-size: 18px;
-          text-transform: uppercase;
+          font-size: 24px;
           color: #000000;
-          line-height: 26px;
+          line-height: 28px;
         }
         .range10{
           display: flex;
@@ -271,8 +269,9 @@ body{
           text-transform: uppercase;
         }
         .light-txt{
-          font-weight: 400;
-          font-size: 13px;
+          font-family: HelveticaNeueCyrLight;
+          // font-weight: 400;
+          font-size: 16px;
           line-height: 22px;
           margin-top: 10px;
           color: #2b2b2b;
@@ -281,11 +280,13 @@ body{
       .question-wrapper{
         margin-top: 20px;
         .q-text{
-          font-weight: 600;
           font-size: 14px;
           line-height: 16px;
           color: #000;
           padding: 0 25px;
+          font-size: 22px;
+          line-height: 26px;
+          padding-bottom: 15px;
         }
         .smaller-font{
           font-weight: 500;
@@ -317,14 +318,16 @@ body{
                 width: 0;
               }
               .answer{
-                font-size: 12px;
+                font-size: 16px;
                 padding-left: 5px;
                 color: #2b2b2b;
                 display: inline-block;
+                font-family: HelveticaNeueCyrLight;
               }
               .answer-font{
-                font-size: 12px;
+                font-size: 16px;
                 color: #333333;
+                font-family: HelveticaNeueCyrLight;
               }
               .checkmark{
                 position: absolute;
@@ -335,7 +338,7 @@ body{
                 max-width: 16px;
                 min-width: 16px;
                 background-color: transparent;
-                border: 1px solid #000;
+                border: 1px solid #c6c6c6;
                 border-radius: 50%;
                 box-sizing: unset;
               }
@@ -442,10 +445,11 @@ body{
                   width: 0;
                 }
                 .answer{
-                  font-size: 11px;
+                  font-size: 16px;
                   padding-left: 5px;
                   color: #2b2b2b;
                   display: inline-block;
+                  font-family: HelveticaNeueCyrLight;
                 }
                 .checkmark{
                   position: absolute;
@@ -456,7 +460,7 @@ body{
                   max-width: 11px;
                   min-width: 11px;
                   background-color: transparent;
-                  border: 1px solid #2b2b2b;
+                  border: 1px solid #c6c6c6;
                   border-radius: 50%;
                   box-sizing: border-box;
                 }
@@ -583,15 +587,17 @@ body{
             background: transparent;
             width: 100%;
             font-weight: 500;
-            font-size: 14px;
-            line-height: 16px;
+            font-size: 16px;
+            line-height: 22px;
             position: relative;
             border-radius: 0;
             z-index: 2;
+            min-height: 88px;
+            font-family: HelveticaNeueCyrLight;
           }
           .comment-field::placeholder{
             color: #A09B9B;
-            font-size: 14px;
+            font-size: 16px;
           }
         }
         .main-comment-error{
@@ -625,14 +631,13 @@ body{
         border-radius: 0;
         border: 1px solid #e3e3e3;
         padding: 13px 20px 11px;
-        font-size: 13px;
+        font-size: 18px;
         line-height: 18px;
         text-align: center;
         background-color: #ffed00;
         background-image: -webkit-linear-gradient(bottom, #ffed00, #fff466);
         cursor: pointer;
-        text-transform: uppercase;
-        font-weight: 600;
+        font-family: HelveticaNeueCyrMedium;
       }
     }
     #contacts-form{

@@ -46,7 +46,7 @@
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: HelveticaNeueCyrMedium;
 }
 
 body .main-page-container {
@@ -151,11 +151,9 @@ body .survey-container .wrapper .main-question-box {
 }
 
 body .survey-container .wrapper .main-question-box .q-text {
-  font-weight: 600;
-  font-size: 18px;
-  text-transform: uppercase;
+  font-size: 24px;
   color: #000000;
-  line-height: 26px;
+  line-height: 28px;
 }
 
 body .survey-container .wrapper .main-question-box .range10 {
@@ -340,8 +338,8 @@ body .survey-container .hidden-questions .thx-text-wrapper .dark-txt {
 }
 
 body .survey-container .hidden-questions .thx-text-wrapper .light-txt {
-  font-weight: 400;
-  font-size: 13px;
+  font-family: HelveticaNeueCyrLight;
+  font-size: 16px;
   line-height: 22px;
   margin-top: 10px;
   color: #2b2b2b;
@@ -352,11 +350,13 @@ body .survey-container .hidden-questions .question-wrapper {
 }
 
 body .survey-container .hidden-questions .question-wrapper .q-text {
-  font-weight: 600;
   font-size: 14px;
   line-height: 16px;
   color: #000;
   padding: 0 25px;
+  font-size: 22px;
+  line-height: 26px;
+  padding-bottom: 15px;
 }
 
 body .survey-container .hidden-questions .question-wrapper .smaller-font {
@@ -402,15 +402,17 @@ body .survey-container .hidden-questions .question-wrapper .flex-container .answ
 }
 
 body .survey-container .hidden-questions .question-wrapper .flex-container .answers-wrapper .radio_container .answer {
-  font-size: 12px;
+  font-size: 16px;
   padding-left: 5px;
   color: #2b2b2b;
   display: inline-block;
+  font-family: HelveticaNeueCyrLight;
 }
 
 body .survey-container .hidden-questions .question-wrapper .flex-container .answers-wrapper .radio_container .answer-font {
-  font-size: 12px;
+  font-size: 16px;
   color: #333333;
+  font-family: HelveticaNeueCyrLight;
 }
 
 body .survey-container .hidden-questions .question-wrapper .flex-container .answers-wrapper .radio_container .checkmark {
@@ -422,7 +424,7 @@ body .survey-container .hidden-questions .question-wrapper .flex-container .answ
   max-width: 16px;
   min-width: 16px;
   background-color: transparent;
-  border: 1px solid #000;
+  border: 1px solid #c6c6c6;
   border-radius: 50%;
   -webkit-box-sizing: unset;
           box-sizing: unset;
@@ -546,10 +548,11 @@ body .survey-container .hidden-questions .question-wrapper .flex-container .answ
 }
 
 body .survey-container .hidden-questions .question-wrapper .flex-container .answers-wrapper .sub-answer-wrapper .sab-radio_container .answer {
-  font-size: 11px;
+  font-size: 16px;
   padding-left: 5px;
   color: #2b2b2b;
   display: inline-block;
+  font-family: HelveticaNeueCyrLight;
 }
 
 body .survey-container .hidden-questions .question-wrapper .flex-container .answers-wrapper .sub-answer-wrapper .sab-radio_container .checkmark {
@@ -561,7 +564,7 @@ body .survey-container .hidden-questions .question-wrapper .flex-container .answ
   max-width: 11px;
   min-width: 11px;
   background-color: transparent;
-  border: 1px solid #2b2b2b;
+  border: 1px solid #c6c6c6;
   border-radius: 50%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -703,31 +706,33 @@ body .survey-container .hidden-questions .comment-box .comment-label-wrapper .co
   background: transparent;
   width: 100%;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 16px;
+  line-height: 22px;
   position: relative;
   border-radius: 0;
   z-index: 2;
+  min-height: 88px;
+  font-family: HelveticaNeueCyrLight;
 }
 
 body .survey-container .hidden-questions .comment-box .comment-label-wrapper .comment-field::-webkit-input-placeholder {
   color: #A09B9B;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 body .survey-container .hidden-questions .comment-box .comment-label-wrapper .comment-field:-ms-input-placeholder {
   color: #A09B9B;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 body .survey-container .hidden-questions .comment-box .comment-label-wrapper .comment-field::-ms-input-placeholder {
   color: #A09B9B;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 body .survey-container .hidden-questions .comment-box .comment-label-wrapper .comment-field::placeholder {
   color: #A09B9B;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 body .survey-container .hidden-questions .comment-box .main-comment-error {
@@ -763,14 +768,13 @@ body .survey-container .submit-wrapper .save-btn {
   border-radius: 0;
   border: 1px solid #e3e3e3;
   padding: 13px 20px 11px;
-  font-size: 13px;
+  font-size: 18px;
   line-height: 18px;
   text-align: center;
   background-color: #ffed00;
   background-image: -webkit-linear-gradient(bottom, #ffed00, #fff466);
   cursor: pointer;
-  text-transform: uppercase;
-  font-weight: 600;
+  font-family: HelveticaNeueCyrMedium;
 }
 
 body .survey-container #contacts-form {
