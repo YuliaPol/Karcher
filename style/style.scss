@@ -36,7 +36,7 @@
   padding: 20px 10px;
 }
 body{
-  font-family: HelveticaNeueCyrMedium, sans-serif;
+  font-family: HelveticaNeueCyrMedium, Helvetica,  sans-serif;
   .main-page-container{
     position: fixed;
     top: 0;
@@ -638,7 +638,7 @@ body{
         background-color: #ffed00;
         background-image: -webkit-linear-gradient(bottom, #ffed00, #fff466);
         cursor: pointer;
-        font-family: HelveticaNeueCyrMedium, sans-serif;
+        font-family: HelveticaNeueCyrMedium, Helvetica,  sans-serif;
       }
     }
     #contacts-form{
